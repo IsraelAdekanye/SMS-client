@@ -2,6 +2,7 @@ import {React, useState} from 'react';
 import './App.css';
 import axios from 'axios';
 import StudentRegistration from './components/StudentRegistration';
+import ParentRegistration from './components/ParentRegistration';
 
 
 
@@ -52,6 +53,7 @@ function App() {
       {tade}
       <button onClick={getInfo} >Get</button>
       <StudentRegistration></StudentRegistration>
+      <ParentRegistration></ParentRegistration>
      
     </div>
   );

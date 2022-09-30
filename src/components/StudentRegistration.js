@@ -50,29 +50,29 @@ const StudentRegistration = () => {
 
     return (  
         <div>
+            <h1>Student Registration</h1>
             <form action=''>
                 <label>Search Parent by Name</label>
                 <input type='text' placeholder='Enter Surname' onChange={searchParent}></input>
                 <input value={`${parentData.lastName} ${parentData.firstName}`} disabled></input>
                 <button onClick={assignParentID}>Assign</button>
             </form>
-    <form onSubmit={createStudent}>
-        <label>Parent ID</label>
-        <input value={parentDetail.id}>
-        </input>
+            <form onSubmit={createStudent}>
+                <label>Parent ID</label>
+                <input value={parentDetail.id}>
+                </input>
 
-        <label>Surname</label>
-        <input value={parentDetail.lastName}>
-        </input>
+                <label>Surname</label>
+                <input value={parentDetail.lastName}>
+                </input>
 
-        <label>First Name</label>
-        <input placeholder='Enter First Name' 
-            value = {FirstName} onChange={(e)=>{setFirstName(e.target.value)}}>
-        </input>
+                <label>First Name</label>
+                <input placeholder='Enter First Name' 
+                    value = {FirstName} onChange={(e)=>{setFirstName(e.target.value)}}>
+                </input>
 
-        <button type='submit'>Add Student</button>
-
-    </form>
+                <button type='submit'>Add Student</button>
+            </form>
     </div>
         
     );
