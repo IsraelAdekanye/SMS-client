@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "subject": "Mathematics",
+        "score" : "90",
+        "grade" : "A"
+    },
+    {
+        "id": 2,
+        "subject": "English Language",
+        "score" : "80",
+        "grade" : "A"
+    },
+    {
+        "id": 3,
+        "subject": "Basic Science",
+        "score" : "70",
+        "grade" : "B"
+    },
+    {
+        "id": 5,
+        "subject": "Business Studies",
+        "score" : "60",
+        "grade" : "C"
+    },
+    {
+        "id": 6,
+        "subject": "Visual Art",
+        "score" : "83",
+        "grade" : "A"
+    },
+    {
+        "id": 7,
+        "subject": "Yoruba",
+        "score" : "75",
+        "grade" : "B"
+    },
+    {
+        "id": 8,
+        "subject": "Computer Science",
+        "score" : "90",
+        "grade" : "A"
+    },
+    {
+        "id": 1,
+        "subject": "Introductory Technology",
+        "score" : "68",
+        "grade" : "C"
+    }
+]

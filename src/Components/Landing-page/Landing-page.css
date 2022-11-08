@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* navbar */
+.navbar{
+    background-color: white;
+    display: flex;
+}
+.navbar p{
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+} 
+.navbar li{
+    margin-left: 6rem;
+    font-weight: bold;
+}
+.navbar button{
+    padding: 0.2rem 3rem;
+    outline: none;
+    border: none;
+    background-color: rgba(71, 22, 76, 0.707);
+    color: white;
+    border-radius: 3px;
+    margin-left: 20rem;  
+    cursor: pointer; 
+}
+.try{
+    display: flex;
+}
+.try img{
+    margin-top: 3rem;
+    width: 600px;
+    height: 300px;
+    animation: Titleimage-load 800ms ease-in var(--title-load-delay) ;
+}
+
+@keyframes Titleimage-load {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.title{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    animation: title-load 700ms ease-in var(--title-load-delay) ;
+}
+.title h1{
+    margin-top: 8rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+@keyframes title-load {
+    0%{
+        transform: translateX(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.easy{
+    margin-top: 6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.easy h1{
+    -webkit-animation: beat 0.25s infinite alternate;
+    animation: beat 0.25s infinite alternate;
+    transform-origin: center;
+}
+@-webkit-keyframes beat {
+    to {
+    transform: scale(1.03);
+    }
+}
+@keyframes beat {
+    to {
+transform: scale(1.03);
+    }
+}
+
+.easySpan{
+   width: 60%;
+   margin-top: -0.2rem;
+}
+.parent{
+    background-color: rgba(71, 22, 76, 0.707);
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    width: 130%;
+}
+.administrator{
+    background-color: rgba(71, 22, 76, 0.737);
+    color: white;
+    font-size: 1.3rem;  
+    border: none;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    display: flex; 
+    width: 130%;
+}
+.logo1{ 
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+.logo2{
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+.logoDown{
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.dropone{
+    text-align: start !important;
+}
+.droptwo{
+    text-align: start !important;
+    font-size: 16px;
+    margin-left: 5rem;
+    animation: dropload 800ms ease-in 0s ;
+    font-weight: bold;
+}
+
+@keyframes dropload {
+    0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.droptwo li{
+    margin-bottom: 0.5rem;
+    padding: 0.7rem 2rem;
+    background-color: transparent;
+    width: 40%;
+    margin-left: 10rem;
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+}
+
+.start{
+    padding: 0.5rem 4rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.3rem;
+}
+.admin{
+    margin-left: 0.5rem;
+}
+.whyChoose{
+    margin-top: 10rem;
+    text-align: start   ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyChoose div{
+   width: 80%;
+   font-size: 1.2rem;
+}
+.btnOne{
+    outline: none;
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: rgb(71, 22, 76);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.3s;
+}
+.btnOne:hover{
+    box-shadow: inset 180px 0 0 0 white;
+    border: 2px solid rgb(71, 22, 76);
+    color: black;
+}
+.btnTwo{
+    outline: none;
+    width: 180px;
+    height: 50px;
+    border:  2px solid rgb(71, 22, 76);
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: inset 0 0 0 0 rgb(71, 22, 76);
+    transition: ease-in 0.3s;
+}
+.btnTwo:hover{
+    box-shadow: inset 180px 0 0 0 rgb(71, 22, 76);
+    border: 1px solid rgb(71, 22, 76);
+    color: white;
+}
+.imgs{
+    margin-left: auto;
+}
+.imgsTwo{
+    width: 500px;
+    height: 300px;
+    margin-left: -4rem;
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+}
+.about{
+    margin-left: 7rem;
+    margin-top: 2rem;   
+}
+.about :hover{
+    transform: translateY(-5px);
+}
+.why{
+    display: flex;
+}
+.whyAffiliatesPerks :hover{
+    transform: translateY(-5px);
+}
+.whyAffiliatesPerks{
+    padding: 15px 20px 20px;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.manOnMoneyImage img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    background-color: rgba(71, 22, 76, 0.847);
+    padding: 1.5rem;
+    width: 250px;
+    height: 200px;   
+}
+.manOnMoneyBold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 138%;
+    padding-bottom: 00.5rem;
+}
+.manOnMoneyNote{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   width: 90%;
+}
+.reasons{
+    display: flex;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* footer */
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    /* background-color: #FAFAFA; */
+    background-color: rgba(71, 22, 76, 0.707);
+    color: white;
+}
+.footer li{
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1.5rem;
+    color: white;
+}
+.footer{
+    display: flex;
+}
+.footer ul{
+    height:6rem;
+    width: 45rem; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: .1rem;
+    margin-top: -1rem;
+    text-align: start;
+    margin-left: 8rem;
+    color: white;
+}
+.footerIcons{
+    margin-top: 0rem;
+}
+.iconAndCopyright{
+    margin-right: auto;
+}
+
+/* signin */
+.signin{
+    display: flex;
+}
+.left-side{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(71, 22, 76, 0.847);
+    -webkit-clip-path:  polygon(0 0, 44% 0, 79% 100%, 1000% 100%);
+            clip-path: polygon(0 0, 44% 0, 79% 100%, 0% 100%);   
+}
+.left-side {
+    height: 100%;
+    width: 68%;
+    background-color: rgba(71, 22, 76, 0.847);
+    transition: all 0.4s ease-in-out;
+}
+.left-side img {
+    margin-top: 1rem;
+    width: 48%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transition: all 0.4s ease-in-out;
+    filter: grayscale(65%);
+}
+.signinForm{
+    margin-left: auto;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+.signinForm input{
+    outline: none;
+    width: 80%;
+    margin-bottom: 2rem;
+    padding: 0.5rem ;
+}
+.signinForm button{
+    background-color: rgba(71, 22, 76, 0.737);
+    color: white;
+    border: none;
+    padding: 0.5rem 5rem;
+}
+
+/* sign up */
+.signup{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup-form{
+    width: 80%;
+}
+.signup-form input{
+    width: 30%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    outline: none;
+}
+.signup-form button{
+    background-color: rgba(71, 22, 76, 0.737);
+    color: white;
+    border: none;
+    padding: 0.5rem 5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navbar ul{
+        margin-left: 4rem;
+    }
+    .navbar button{
+        margin-left: 10rem;
+    }
+    .try img{
+        width: 550px;
+        height: 250px;
+    }
+    .title h1{
+        margin-top: 7rem;
+        font-size: 2rem;
+    }
+    .title span{
+        font-size: 12px;
+    }
+    .btnOne{
+        width: 130px;
+        height: 40px;
+    }
+    .btnTwo{
+        width: 130px;
+        height: 40px;
+    }
+    .imgsTwo{
+        width: 450px;
+        height: 250px;
+    }
+    .whyChoose div{
+        font-size: 1rem;
+    }
+    .about{
+        margin-left: 5rem;
+    }
+    .reasons{
+        padding: 0rem;
+        margin-left: 0rem;
+    }
+    .footer ul{
+        margin-left: 4rem;
+    }
+    .signinForm{
+        margin-right: -3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar ul{
+        margin-left: 0rem;
+    }
+    .navbar li{
+        margin-left: 4rem;
+    }
+    .title h1{
+        margin-top: 5rem;
+        font-size: 1.7rem;
+    }
+    .title span{
+        font-size: 8px;
+    }
+    .btnOne{
+        width: 100px;
+        height: 40px;
+        margin-left: 0rem;
+    }
+    .btnTwo{
+        width: 100px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar li{
+        margin-left: 1rem;
+    }
+    .navbar ul{
+        margin-left: 3rem ;
+    }
+    .navbar button{
+        padding: 0.2rem 2rem;
+    }
+    .navbar p{    
+        font-size: 1rem;
+    }
+    .try{
+        flex-direction: column;
+    }
+    .title h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-align: center;
+        margin-left: -1rem;
+    }
+    .navbar button{
+        margin-left: 1rem;
+    }
+    .title span{
+        font-size: 10px;
+        margin-left: -2rem;
+    }
+    .btnOne{
+        width: 180px;
+        height: 50px;
+    }
+    .btnTwo{
+        width: 180px;
+        height: 50px;
+    }
+    .try img{
+        margin-left: -4rem;
+    }
+    .easySpan{
+        width: 80%;
+    }
+    .administrator{
+        margin-left: -2rem;
+    }
+    .droptwo li{
+        margin-left: 0rem;
+        width: 80%;
+        padding: 0.6rem 1rem;
+    }
+    .whyChoose{
+        margin-top: 6rem;
+    }
+    .why{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgsTwo{
+        width: 380px;
+        height: 250px;
+        margin-left: -2rem;
+    }
+    .whyChoose div{
+        margin-left: 1rem;
+        width: 90%;
+    }
+    .reasons{
+        flex-direction: column;
+    }
+    .whyAffiliatesPerks{
+        width: 90%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer ul{
+        margin-top: -3rem;
+        flex-direction: row;
+        width: 32%;
+        height: 20rem;
+        margin-left: 1rem;
+    }
+    .footer li {
+        margin-left: 1rem;
+    }
+    .iconAndCopyright{
+        margin-left:3rem;
+    }
+
+    /* signup */
+    .signup-form input{
+        width: 80%;
+    }
+
+    /* signin */
+    .signinForm{
+        margin-right: 0rem;
+        margin-top: 15rem;
+        margin-left: 3rem;
+    }
+    .signinForm input{
+        width: 70%;
+    }
+    .signinForm h2{
+        color: white;
+    }
+}
+

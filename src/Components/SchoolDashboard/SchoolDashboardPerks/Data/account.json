@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "title": "Buying of light bulb for five Classes",
+        "amount" : 150
+    },
+    {
+        "id": 2,
+        "title": "School fees Payment by Mr.Kasali",
+        "amount" : 100
+    },
+    {
+        "id": 3,
+        "title": "Electricity Fee and Board Markers",
+        "amount" : 20000
+    },
+    {
+        "id": 4,
+        "title": "School fees payment by Mrs.Lawal",
+        "amount" : 50000
+    },
+    {
+        "id": 4,
+        "title": "School fees payment by Miss.Bola",
+        "amount" : 50000
+    }
+]

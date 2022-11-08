@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ul{
+    list-style-type: none;
+}
+a{  
+    text-decoration: none;
+    color: black;
+}
+.schoolDashboard{
+    display: flex;
+    /* width: 100%; */
+}
+.sideBar{
+    font-size: 1.2rem;
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.sideBar li{
+    display: flex;
+    margin-left: -3rem;
+    padding: 1rem 3rem;
+}
+.sideBar li span{
+    margin-left: 0.3rem;
+}
+.sideBar li div{
+    margin-left: auto;
+}
+.sideBar li:hover{
+    background-color: white;
+}
+.smallProfile{
+    display: flex;
+    background-color: white;
+    width: 75%;
+    padding: 0rem 1.5rem;
+}
+.smallProfile span{
+    background-color: white;
+    margin-top: 1.4rem;
+    border-radius: 6rem;
+    height: 20px;
+    padding: 6px;
+}
+.smallProfile h6{
+    margin-left: 0.1rem;
+}
+.subnav span{
+    padding: 0rem 0rem !important;
+    font-size: 0.9rem;
+}
+
+/* Home */
+.schoolHome {
+    width: 100.5%;
+    height: 100vh;
+    overflow: scroll;
+}
+.schoolHome h3{
+    margin-left: 0.5rem;
+}
+.adminAll{
+    background-color: white;
+    padding-top: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.1rem;
+}
+.adminName p{
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.flexthree{
+    display: flex;
+    margin-left: 0.5rem;
+}
+.totalStudents{
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+    padding: 0.5rem 6.5rem 1rem 1rem;
+    background-color: white;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+.totalStudents span{
+    margin-left: 5px;
+}
+.totalStudents h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.people{
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+    padding: 1.2rem 1rem 1rem 1rem;
+    background-color: white;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    width: 22%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.peopleIcon{
+    font-size: 3rem;
+}
+.teachIcon{
+    font-size: 3rem;
+}
+.flexAll{
+    display: flex;
+    margin-left: 0.7rem;
+}
+
+/* Students */
+.students{
+    margin-left: 0.8rem;
+}
+.profileName{
+    display: flex;
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+}
+.students input{
+    padding: 0.5rem;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.students td {
+    padding: 1rem;
+}
+.students table{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.students th {
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+    padding: 1rem 2rem ;
+    background-color: white;
+}
+
+/* Forms */
+.forms{
+    margin-left: 1rem;
+}
+.forms input{
+    border: 1px solid;
+    padding: 0.3rem 1rem;
+    background-color: transparent;
+    margin-bottom: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+form label{
+    margin-top: 0.7rem;
+    font-family: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.select{
+    padding: 0.3rem 3rem;
+    margin-bottom: 0.8rem;
+    font-family: 'Montserrat', sans-serif ;
+}
+.formNames{
+    display: flex;
+    flex-direction: column;
+}
+.formClass{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.newProfile{
+    background-color: white;
+    padding: 1rem 3rem;
+}
+.newProfile button{
+    padding: 0.5rem 4rem;
+    border: none;
+    background-color: rgba(82, 31, 88, 0.963) ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.teachStaff{
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+    padding: 1.2rem 3rem ;
+    background-color: white;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Calendar */
+.calendar input{
+    width: 30%;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+.heytext{
+    width: 80%;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+.calendarBtn{
+    padding: 0.5rem 4rem;
+    border: none;
+    background-color: rgba(82, 31, 88, 0.963) ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5rem;
+}
+.calendar h3{
+    margin-left: 1rem;
+}
+.activityOutput{
+    margin-left: 0.8rem;
+    transition: all 0.3s ease-out;
+    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.083);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.activityOutput span{
+    margin-bottom: 1rem;
+}
+
+/* Result */
+.schoolResults table{
+    border: 1px solid black;
+    padding: 0.2rem;
+    margin-top: 1rem;
+}
+.schoolResults tbody{
+   text-align: center;
+   font-size: 12px;
+}
+.schoolResults thead{
+    font-size: 14px;
+}
+.schoolResults h2{
+    margin-left: 0.8rem;
+}
+.schoolResults button{
+    border: none;
+    background-color: rgba(82, 31, 88, 0.963) ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 15px;
+}
+.searchClass{
+    width: 30%;
+    padding: 5px;
+    margin-left: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    border: none;
+}
+.upload{
+    margin-top: 3rem;
+    margin-left: 8rem;
+    padding: 0.5rem 3rem !important;
+}
+
+/* Account */
+.account h2{
+    margin-left: 1rem;
+}
+.inexp{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.income{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    border-right: 1px solid;
+    padding-right: 4rem;
+    margin-right:5rem ;
+}
+.expense{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.flexTwo{
+    display: flex;
+    margin-left: 1rem;
+    width: 140%;
+}
+.history{
+    width: 100%;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.history li{
+    padding: 0.3rem;
+    text-decoration: none;
+    margin-left: -2.5rem;
+    display: flex;
+}
+.history li span{
+    margin-left: 4rem;
+}
+.history li p{
+    margin-top: -0.1rem;
+    margin-left: auto;
+}
+.addData{
+    border: 1px solid black;
+    margin-left: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.forum{
+    width: 80%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.form2 form button{
+    border: none;
+    background-color: rgba(82, 31, 88, 0.963) ;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5rem 3rem;
+    margin-top: 2rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    .schoolHome{
+        margin-left: -4rem;
+    }
+    .flexthree{
+        flex-direction: column;
+    }
+    .flexAll{
+        flex-direction: column;
+    }
+    .people{
+        width: 70%;
+    }
+    .sideBar{
+        font-size: 0.8rem;
+        width: 60%;
+    }
+    .students{
+        margin-left: -3rem;
+        height: 100vh;
+        overflow: scroll;
+    }
+    .students th{
+        padding: 0.3rem 0.7rem;
+        font-size: 12px;
+    }
+    .students table{
+        margin-left: -0.5rem;
+    }
+    .students td{
+        padding: 0.5rem;
+        font-size: 10px;
+    }
+}

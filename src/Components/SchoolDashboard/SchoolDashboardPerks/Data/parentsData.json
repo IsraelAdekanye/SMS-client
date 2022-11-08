@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Peter Israel Shola",
+        "address" : "25, Fadeyi off Yaba street",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Trader"
+    },
+    {
+        "id": 2,
+        "name": "John Smith Segun",
+        "address" : "5, Palmgroove house",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Farmer"
+    },
+    {
+        "id": 3,
+        "name": "Sean Paul Dayo",
+        "address" : "11, Ikoyi house",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Banker"
+    },
+    {
+        "id": 5,
+        "name": "Adamu Nnamdi Ayoola",
+        "address" : "8, Liberty Villa",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Doctor"
+    },
+    {
+        "id": 6,
+        "name": "Adamu Nnamdi Ayoola",
+        "address" : "8, Liberty Villa",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Hair Stylist"
+    },
+    {
+        "id": 7,
+        "name": "Adamu Nnamdi Ayoola",
+        "address" : "8, Liberty Villa",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Lawyer"
+    },
+    {
+        "id": 8,
+        "name": "Adamu Nnamdi Ayoola",
+        "address" : "8, Liberty Villa",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "TV Presenter"
+    },
+    {
+        "id": 1,
+        "name": "Peter Israel Shola",
+        "address" : "25, Fadeyi off Yaba street",
+        "phonenumber" : "084382918",
+        "gender" : "Female",
+        "occupation" : "Pilot"
+    }
+]
