@@ -36,8 +36,8 @@ const DataContextProvider = (props) => {
 //     }
 // })
 
-    loadParents();
-    loadStudents();
+    // loadParents();
+    // loadStudents();
 
     return (
         <DataContext.Provider value={{studentsData, parentsData}} >
